@@ -532,11 +532,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\Code\\StokersWebsite\\LogicLayer\\LogicLayer.csproj",
+      "projectUniqueName": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\LogicLayer\\LogicLayer.csproj",
       "projectName": "LogicLayer",
-      "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\Code\\StokersWebsite\\LogicLayer\\LogicLayer.csproj",
+      "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\LogicLayer\\LogicLayer.csproj",
       "packagesPath": "C:\\Users\\rensv\\.nuget\\packages\\",
-      "outputPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\Code\\StokersWebsite\\LogicLayer\\obj\\",
+      "outputPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\LogicLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rensv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -553,11 +553,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\Code\\StokersWebsite\\AbstractionLayer\\AbstractionLayer.csproj": {
-              "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\Code\\StokersWebsite\\AbstractionLayer\\AbstractionLayer.csproj"
+            "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\AbstractionLayer\\AbstractionLayer.csproj": {
+              "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\AbstractionLayer\\AbstractionLayer.csproj"
             },
-            "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\Code\\StokersWebsite\\FactoryLayer\\FactoryLayer.csproj": {
-              "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\Code\\StokersWebsite\\FactoryLayer\\FactoryLayer.csproj"
+            "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\FactoryLayer\\FactoryLayer.csproj": {
+              "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\FactoryLayer\\FactoryLayer.csproj"
             }
           }
         }
