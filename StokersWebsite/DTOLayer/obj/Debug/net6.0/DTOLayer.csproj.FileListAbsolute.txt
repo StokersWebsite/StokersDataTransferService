@@ -10,3 +10,15 @@ C:\School\Semester 3\Individueel\StokersWebsite\Code\StokersWebsite\DTOLayer\obj
 C:\School\Semester 3\Individueel\StokersWebsite\Code\StokersWebsite\DTOLayer\obj\Debug\net6.0\DTOLayer.dll
 C:\School\Semester 3\Individueel\StokersWebsite\Code\StokersWebsite\DTOLayer\obj\Debug\net6.0\ref\DTOLayer.dll
 C:\School\Semester 3\Individueel\StokersWebsite\Code\StokersWebsite\DTOLayer\obj\Debug\net6.0\DTOLayer.pdb
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\bin\Debug\net6.0\DTOLayer.deps.json
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\bin\Debug\net6.0\DTOLayer.dll
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\bin\Debug\net6.0\ref\DTOLayer.dll
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\bin\Debug\net6.0\DTOLayer.pdb
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\obj\Debug\net6.0\DTOLayer.csproj.AssemblyReference.cache
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\obj\Debug\net6.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\obj\Debug\net6.0\DTOLayer.AssemblyInfoInputs.cache
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\obj\Debug\net6.0\DTOLayer.AssemblyInfo.cs
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\obj\Debug\net6.0\DTOLayer.csproj.CoreCompileInputs.cache
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\obj\Debug\net6.0\DTOLayer.dll
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\obj\Debug\net6.0\ref\DTOLayer.dll
+C:\School\Semester 3\Individueel\StokersWebsite\CvDeStokers\StokersWebsite\DTOLayer\obj\Debug\net6.0\DTOLayer.pdb

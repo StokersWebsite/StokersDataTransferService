@@ -54,7 +54,6 @@ namespace DataLayer
                                 Adress = (string)row["Adress"],
                                 PostalCode = (string)row["PostalCode"],
                             }) ;
-                            //test
                         }
                         return members;
                     }

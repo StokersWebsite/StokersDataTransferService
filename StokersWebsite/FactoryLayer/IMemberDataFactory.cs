@@ -4,7 +4,7 @@ namespace FactoryLayer
 {
     public static class IMemberDataFactory
     {
-        public static IMembersData GetMemberData()
+        public static IMembersData Get()
         {
             return new DataLayer.RegisterDAL();
         }
