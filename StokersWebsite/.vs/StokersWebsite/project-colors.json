@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2f3ea14d-a408-404b-92a6-b3ff0ab77417": {
+      "ProjectGuid": "2f3ea14d-a408-404b-92a6-b3ff0ab77417",
+      "DisplayName": "StokersWebsite",
+      "ColorIndex": 0
+    },
+    "90509c88-3188-4414-8e5d-a91282b9cc8a": {
+      "ProjectGuid": "90509c88-3188-4414-8e5d-a91282b9cc8a",
+      "DisplayName": "Datalayer",
+      "ColorIndex": 1
+    },
+    "77e751f2-c765-4265-a982-a0625c93ec3c": {
+      "ProjectGuid": "77e751f2-c765-4265-a982-a0625c93ec3c",
+      "DisplayName": "DTOLayer",
+      "ColorIndex": 2
+    },
+    "fc004703-b84f-488a-b205-39397fe86232": {
+      "ProjectGuid": "fc004703-b84f-488a-b205-39397fe86232",
+      "DisplayName": "AbstractionLayer",
+      "ColorIndex": 3
+    },
+    "8c79b87f-7fb1-4407-9287-a0eef33917a6": {
+      "ProjectGuid": "8c79b87f-7fb1-4407-9287-a0eef33917a6",
+      "DisplayName": "AbstractionLayer",
+      "ColorIndex": 4
+    },
+    "0cb811f0-2ee2-4235-83ce-c5716e0982e4": {
+      "ProjectGuid": "0cb811f0-2ee2-4235-83ce-c5716e0982e4",
+      "DisplayName": "LogicLayer",
+      "ColorIndex": 5
+    },
+    "09b754c3-03bc-4312-9871-cb89e5a57c18": {
+      "ProjectGuid": "09b754c3-03bc-4312-9871-cb89e5a57c18",
+      "DisplayName": "StokersWebsiteMVC",
+      "ColorIndex": 6
+    },
+    "b3720c50-621e-40f7-bb6b-cce323d06ec9": {
+      "ProjectGuid": "b3720c50-621e-40f7-bb6b-cce323d06ec9",
+      "DisplayName": "WebsiteStokers",
+      "ColorIndex": 7
+    },
+    "f5b7584f-7ed8-4da7-aa75-1c574734f105": {
+      "ProjectGuid": "f5b7584f-7ed8-4da7-aa75-1c574734f105",
+      "DisplayName": "FactoryLayer",
+      "ColorIndex": 8
+    },
+    "5278fc1b-9caf-45cf-a295-276b396ef47d": {
+      "ProjectGuid": "5278fc1b-9caf-45cf-a295-276b396ef47d",
+      "DisplayName": "TestLayer",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}
