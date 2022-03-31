@@ -17,6 +17,7 @@ namespace WebsiteStokers.Controllers
             IMembersData members = IMemberDataFactory.Get();
             members.RegisterMember(new DTOLayer.MemberDTO { Firstname = Firstname, Adress = Adress, Birthdate = Birthdate, Lastname = Lastname, PhoneNumber = PhoneNumber, PostalCode = PostalCode });
             return Ok();
+            //fiets
         }
     }
 }
