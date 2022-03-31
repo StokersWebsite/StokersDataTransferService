@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f1ed1e3c154c1075",
+        "id": "5e9d08c63dce618e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Use Cases/UC-01 Registreren.md",
+            "file": "Semester 3/Stokers/Analyse Document/Plan Van Aanpak.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Use Cases/UC-01 Registreren.md",
+                "file": "Semester 3/Stokers/Analyse Document/Plan Van Aanpak.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +95,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "f1ed1e3c154c1075",
+  "active": "5e9d08c63dce618e",
   "lastOpenFiles": [
-    "Use Cases/UC-01 Registreren.md",
-    "Analyse Document/Class Diagram.md",
-    "Analyse Document/ERD.md",
-    "Analyse Document/Plan Van Aanpak.md",
-    "Analyse Document/Requirements.md",
-    "Notulen/3-20-2022.md",
-    "Images/StokersLogoNoBackground 1.png",
-    "Images/StokersLogoNoBackground.png",
-    "Images/ERDRemovedBG.png",
-    "Images/ClassDiagram 1.png"
+    "Semester 3/Stokers/Analyse Document/Plan Van Aanpak.md",
+    "Semester 3/Stokers/Analyse Document/Class Diagram.md",
+    "Analyse Document/Planning.md",
+    "Semester 3/Stokers/Use Cases/UC-01 Registreren.md",
+    "Semester 3/Stokers/Analyse Document/ERD.md",
+    "Semester 3/Stokers/Analyse Document/Requirements.md",
+    "Semester 3/Stokers/Notulen/3-20-2022.md",
+    "Semester 3/Stokers/Images/StokersLogoNoBackground 1.png",
+    "Semester 3/Stokers/Images/StokersLogoNoBackground.png",
+    "Semester 3/Stokers/Images/ERDRemovedBG.png"
   ]
 }
