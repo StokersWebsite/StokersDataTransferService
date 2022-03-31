@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "52534b7867cd4121",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1ed1e3c154c1075",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Use Cases/UC-01 Registreren.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6ddf886e8c3ee43",
+    "type": "split",
+    "children": [
+      {
+        "id": "31406826bd77eef9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "536d9a2237c501c4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6aaacf874fc29ae7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "af7c32cde5c6e259",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef793972ce6d20b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd9aa624d428bb7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Use Cases/UC-01 Registreren.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8d00bd79a9482c83",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "f1ed1e3c154c1075",
+  "lastOpenFiles": [
+    "Use Cases/UC-01 Registreren.md",
+    "Analyse Document/Class Diagram.md",
+    "Analyse Document/ERD.md",
+    "Analyse Document/Plan Van Aanpak.md",
+    "Analyse Document/Requirements.md",
+    "Notulen/3-20-2022.md",
+    "Images/StokersLogoNoBackground 1.png",
+    "Images/StokersLogoNoBackground.png",
+    "Images/ERDRemovedBG.png",
+    "Images/ClassDiagram 1.png"
+  ]
+}
