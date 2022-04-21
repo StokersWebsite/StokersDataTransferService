@@ -9,7 +9,7 @@ namespace DataLayer
     public class RegisterDAL : IMembersData
     {
         static public SqlConnection? sc;
-        static string ConnectionString = "Data Source=DELL-XPS-15;Initial Catalog=Stokers;Integrated Security=True";
+        static string ConnectionString = "Server=db;Database=Stokers;User=sa;Password=R9QgoT#Pm8";
 
         public RegisterDAL()
         {
