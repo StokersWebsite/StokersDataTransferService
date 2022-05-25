@@ -493,11 +493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\DAL\\Datalayer.csproj",
+      "projectUniqueName": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\DAL\\Datalayer.csproj",
       "projectName": "Datalayer",
-      "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\DAL\\Datalayer.csproj",
+      "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\DAL\\Datalayer.csproj",
       "packagesPath": "C:\\Users\\rensv\\.nuget\\packages\\",
-      "outputPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\DAL\\obj\\",
+      "outputPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rensv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -514,8 +514,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\AbstractionLayer\\AbstractionLayer.csproj": {
-              "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\AbstractionLayer\\AbstractionLayer.csproj"
+            "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\AbstractionLayer\\AbstractionLayer.csproj": {
+              "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\AbstractionLayer\\AbstractionLayer.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "238r9L9IGFqLaCwaTvoE1o645r3YOHu2/8cyjbbkjOGzMUWMnGsdpTJjvP0UVY2OAjXGFvVeObPzt6QnOjaxxA==",
+  "dgSpecHash": "Wep8x+lhGYiKFLhNhA6/b7GrUz7SWNMmKbZPf0/V2o+WaT4SwWzqx9m7Lm0/t9O2DUzKuVagXYY8mA3IeKCzWA==",
   "success": true,
-  "projectFilePath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\AbstractionLayer\\AbstractionLayer.csproj",
+  "projectFilePath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\AbstractionLayer\\AbstractionLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

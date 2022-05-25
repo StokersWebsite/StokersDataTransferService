@@ -6209,11 +6209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\TestLayer\\TestLayer.csproj",
+      "projectUniqueName": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\TestLayer\\TestLayer.csproj",
       "projectName": "TestLayer",
-      "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\TestLayer\\TestLayer.csproj",
+      "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\TestLayer\\TestLayer.csproj",
       "packagesPath": "C:\\Users\\rensv\\.nuget\\packages\\",
-      "outputPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\TestLayer\\obj\\",
+      "outputPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\TestLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rensv\\AppData\\Roaming\\NuGet\\NuGet.Config",

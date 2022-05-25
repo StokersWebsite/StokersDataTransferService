@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3vEA/GO6A88M6PiHx7lS6VXOkHTdvF9Pai/8+3FBDbcRt+2HpkbiI8x5AW9YuYArN4Hv4i5GJVsah46eLGonsQ==",
+  "dgSpecHash": "N//97vHFIrtoDLMIhCiGzDl0GER9oqFTSw7ku3K5Lzdx4ClpMenQ4lke0cnCmQ3chYJa8PxIXfmiKCnddCsSTQ==",
   "success": true,
-  "projectFilePath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\DTOLayer\\DTOLayer.csproj",
+  "projectFilePath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\DTOLayer\\DTOLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

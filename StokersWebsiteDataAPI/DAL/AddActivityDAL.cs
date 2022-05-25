@@ -6,21 +6,21 @@ using AbstractionLayer;
 namespace DataLayer
 {
     //public List<MemberDTO> members = new List<MemberDTO>();
-    public class RegisterDAL : IMembersData
+    public class AddActivityDAL : IActivityData
     {
         static public SqlConnection? sc;
-        static string ConnectionString = "Server=db;Database=Stokers;User=sa;Password=R9QgoT#Pm8";
+        static string ConnectionString = "Server=mssql.fhict.local;Database=Stokers;";
 
-        public RegisterDAL()
+        public AddActivityDAL()
         {
             sc = new SqlConnection();
             sc.ConnectionString = ConnectionString;
         }
 
-        public List<MemberDTO>? Read()
+        public List<ActivityDTO>? Read()
         {
             //new klant list aanmaken
-            List<MemberDTO> result = new List<MemberDTO>();
+            List<ActivityDTO> result = new List<ActivityDTO>();
 
             // Creeër een nieuw SqlConnection Object met de connectionString
             try
@@ -28,7 +28,7 @@ namespace DataLayer
                 using (SqlConnection connection = new SqlConnection(ConnectionString))
                 {
                     //sql query
-                    string sqlQuery = "SELECT * FROM members";
+                    string sqlQuery = "SELECT * FROM Activity";
 
                     using (SqlCommand command = new SqlCommand(sqlQuery, connection))
                     {
@@ -41,21 +41,20 @@ namespace DataLayer
                         DataTable dt = new DataTable();
                         dt.Load(reader);
 
-                        List<MemberDTO> members = new List<MemberDTO>();
+                        List<ActivityDTO> Events = new List<ActivityDTO>();
 
                         foreach (DataRow row in dt.Rows)
                         {
-                            members.Add(new MemberDTO()
+                            Events.Add(new ActivityDTO()
                             {
-                                Firstname = (string)row["FirstName"],
-                                Lastname = (string)row["LastName"],
-                                PhoneNumber = (string)row["PhoneNumber"],
-                                Birthdate = (DateOnly)row["Birthdate"],
-                                Adress = (string)row["Adress"],
-                                PostalCode = (string)row["PostalCode"],
+                                name = (string)row["name"],
+                                description = (string)row["description"],
+                                date = (DateOnly)row["date"],
+                                location = (string)row["location"],
+                                MaxMembers = (string)row["maxMembers"],
                             }) ;
                         }
-                        return members;
+                        return Events;
                     }
                 }
             }
@@ -67,29 +66,26 @@ namespace DataLayer
             }
         }
 
-        public int RegisterMember(MemberDTO memberDTO)
-        {
-
-
+        public int AddAcitivtyDAL(ActivityDTO activityDTO)
+        { 
             // Upload naar database logica
             try
             {
                 using (SqlConnection connection = new SqlConnection(ConnectionString))
                 {
                     //sql query
-                    string sqlQuery = "INSERT INTO members VALUES (@FirstName, @LastName, @PhoneNumber, @Birthdate, @Adress, @PostalCode) SELECT SCOPE_IDENTITY()";
+                    string sqlQuery = "INSERT INTO activities VALUES (@name, @description, @date, @location, @maxMembers) SELECT SCOPE_IDENTITY()";
 
-                    SqlParameter firstNameParam = new SqlParameter("FirstName", System.Data.SqlDbType.VarChar) { Value = memberDTO.Firstname };
-                    SqlParameter lastNameParam = new SqlParameter("LastName", System.Data.SqlDbType.VarChar) { Value = memberDTO.Lastname };
-                    SqlParameter phoneNumberParam = new SqlParameter("PhoneNumber", System.Data.SqlDbType.VarChar) { Value = memberDTO.PhoneNumber };
-                    SqlParameter birthdateParam = new SqlParameter("Birthdate", System.Data.SqlDbType.VarChar) { Value = memberDTO.Birthdate };
-                    SqlParameter adressParam = new SqlParameter("Adress", System.Data.SqlDbType.VarChar) { Value = memberDTO.Adress };
-                    SqlParameter postalCodeParam = new SqlParameter("PostalCode", System.Data.SqlDbType.VarChar) { Value = memberDTO.PostalCode };
+                    SqlParameter nameParam = new SqlParameter("Name", System.Data.SqlDbType.VarChar) { Value = activityDTO.name };
+                    SqlParameter descriptionParam = new SqlParameter("Description", System.Data.SqlDbType.VarChar) { Value = activityDTO.description };
+                    SqlParameter dateParam = new SqlParameter("Date", System.Data.SqlDbType.VarChar) { Value = activityDTO.date };
+                    SqlParameter locationParam = new SqlParameter("Location", System.Data.SqlDbType.VarChar) { Value = activityDTO.location };
+                    SqlParameter maxMembersParam = new SqlParameter("MaxMembers", System.Data.SqlDbType.VarChar) { Value = activityDTO.MaxMembers };
 
 
-                    using (SqlCommand command = CommandBuilder(sqlQuery, firstNameParam, lastNameParam, phoneNumberParam, birthdateParam, adressParam, postalCodeParam))
+                    using (SqlCommand command = CommandBuilder(sqlQuery, nameParam, descriptionParam, dateParam, locationParam, maxMembersParam))
                     {
-                        //open de sql connectie 
+                        //open de sql connectie
                         connection.Open();
 
                         // Voer het SqlCommand uit
@@ -102,7 +98,7 @@ namespace DataLayer
             //Vangt de mogelijke fouten op en toont een melding 
             catch (SqlException sqlError)
             {
-                //loggen
+                Console.WriteLine(sqlError.Message);
                 return 0;
             }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\DTOLayer\\DTOLayer.csproj": {}
+    "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\DTOLayer\\DTOLayer.csproj": {}
   },
   "projects": {
-    "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\DTOLayer\\DTOLayer.csproj": {
+    "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\DTOLayer\\DTOLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\DTOLayer\\DTOLayer.csproj",
+        "projectUniqueName": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\DTOLayer\\DTOLayer.csproj",
         "projectName": "DTOLayer",
-        "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\DTOLayer\\DTOLayer.csproj",
+        "projectPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\DTOLayer\\DTOLayer.csproj",
         "packagesPath": "C:\\Users\\rensv\\.nuget\\packages\\",
-        "outputPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\DTOLayer\\obj\\",
+        "outputPath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\DTOLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rensv\\AppData\\Roaming\\NuGet\\NuGet.Config",

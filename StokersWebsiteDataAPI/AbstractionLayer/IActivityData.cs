@@ -7,9 +7,9 @@ using DTOLayer;
 
 namespace AbstractionLayer
 {
-    public interface IMembersData
+    public interface IActivityData
     {
-        public List<MemberDTO> Read();
-        public int RegisterMember(MemberDTO memberDTO);
+        public List<ActivityDTO> Read();
+        public int AddAcitivtyDAL(ActivityDTO activityDTO);
     }
 }

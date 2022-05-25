@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2riNuQH1ynaoYdSY6tkEbgHF6jeg8BXzQOOFy1Em0tBf/FIjEw64RaMP6KpzDAadxGUBVL7G9MBOx+0Tlsgb8A==",
+  "dgSpecHash": "w5Jc20VwGpchB8YybzhF9mikLl3D66+OUMqIHug2Gr75bDNCpG4C8bQhDNg8J9c8TKeKyT9QnIMf/vHC5lrdNw==",
   "success": true,
-  "projectFilePath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\CvDeStokers\\StokersWebsite\\FactoryLayer\\FactoryLayer.csproj",
+  "projectFilePath": "C:\\School\\Semester 3\\Individueel\\StokersWebsite\\StokersDataTransferService\\StokersWebsiteDataAPI\\FactoryLayer\\FactoryLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rensv\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\rensv\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
