@@ -1,8 +1,14 @@
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Identity.Web;
+using Microsoft.EntityFrameworkCore;
+using Datalayer;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<StokersContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("StokersConnection"));
+});
 
 // Add services to the container.
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -12,6 +18,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 
 var app = builder.Build();
