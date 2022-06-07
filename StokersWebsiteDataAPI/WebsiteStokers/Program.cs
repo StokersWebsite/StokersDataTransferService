@@ -11,15 +11,25 @@ builder.Services.AddDbContext<StokersContext>(opt =>
 });
 
 // Add services to the container.
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
+//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+ //   .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+// CORS Configuration
+builder.Services.AddCors(opt =>
+{   
+    opt.AddDefaultPolicy(builder =>
+    {
+        builder
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -30,11 +40,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
- 
-app.UseAuthentication();
-app.UseAuthorization();
+//app.UseHttpsRedirection();
+//http://localhost:5003/swagger/index.html
+//app.UseAuthentication();
+//app.UseAuthorization();
 
 app.MapControllers();
+app.UseCors();
 
 app.Run();
