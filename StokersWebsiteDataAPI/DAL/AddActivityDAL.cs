@@ -9,7 +9,8 @@ namespace DataLayer
     public class AddActivityDAL : IActivityData
     {
         static public SqlConnection? sc;
-        static string ConnectionString = "Server=mssql.fhict.local;Database=Stokers;";
+        //Data Source=DELL-XPS-15;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+        static string ConnectionString = "Server=DELL-XPS-15;Database=Stokers;Trusted_Connection=True;";
 
         public AddActivityDAL()
         {
@@ -28,7 +29,7 @@ namespace DataLayer
                 using (SqlConnection connection = new SqlConnection(ConnectionString))
                 {
                     //sql query
-                    string sqlQuery = "SELECT * FROM Activity";
+                    string sqlQuery = "SELECT * FROM activities";
 
                     using (SqlCommand command = new SqlCommand(sqlQuery, connection))
                     {
@@ -49,7 +50,7 @@ namespace DataLayer
                             {
                                 name = (string)row["name"],
                                 description = (string)row["description"],
-                                date = (DateOnly)row["date"],
+                                date = (DateTime)row["date"],
                                 location = (string)row["location"],
                                 MaxMembers = (string)row["maxMembers"],
                             }) ;

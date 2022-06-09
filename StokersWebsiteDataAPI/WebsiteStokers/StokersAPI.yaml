@@ -1,0 +1,42 @@
+openapi: 3.0.1
+info:
+  title: 'WebsiteStokers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+  version: '1.0'
+paths:
+  /Activity/AddActivity:
+    post:
+      tags:
+        - Activity
+      parameters:
+        - name: name
+          in: query
+          schema:
+            type: string
+        - name: description
+          in: query
+          schema:
+            type: string
+        - name: date
+          in: query
+          schema:
+            type: string
+            format: date-time
+        - name: location
+          in: query
+          schema:
+            type: string
+        - name: MaxMembers
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+  /Activity/GetActivities:
+    get:
+      tags:
+        - Activity
+      responses:
+        '200':
+          description: Success
+components: { }
