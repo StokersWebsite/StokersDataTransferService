@@ -25,9 +25,10 @@
     <ProjectReference Include="..\FactoryLayer\FactoryLayer.csproj" />
   </ItemGroup>
 
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'Debug'">
-		<Exec Command="dotnet tool restore" />
-		<Exec Command="dotnet swagger tofile --yaml --output StokersAPI.yaml &quot;$(OutputPath)$(AssemblyName).dll&quot; v1" />
-	</Target>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'Debug'">
+	<Exec Command="dotnet tool restore" />
+	<Exec Command="dotnet swagger tofile --yaml --output StokersAPI.yaml &quot;$(OutputPath)$(AssemblyName).dll&quot; v1" />
+  </Target>
+	
 </Project>
