@@ -39,7 +39,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-//testing CI
+//testing CI/CD
 
 //app.UseHttpsRedirection();
 //http://localhost:5003/swagger/index.html
