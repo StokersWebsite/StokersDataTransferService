@@ -69,8 +69,8 @@ jobs:
           #username: ${{ github.actor }}
           #password: ${{ secrets.GITHUB_TOKEN }}
           ## Credentials DockerHub
-          username: ${{ secrets.DOCKER_LOGIN }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: Rensvlooswijk
+          password: fiets1234567890
 
       # Extract metadata (tags, labels) for Docker
       # https://github.com/docker/metadata-action
