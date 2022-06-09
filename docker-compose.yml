@@ -1,14 +1,14 @@
 version: "3.8"
 services:
   StokersWebsite:
-    image: ${DOCKER_REGISTRY-}stokersapi
-    build:
-      context: ./StokersWebsiteDataAPI
-      dockerfile: ./WebsiteStokers/Dockerfile
+    image: rensvlooswijk/stokersdatatransferservice:main
     ports:
       - 5003:5003
     depends_on:
       - db
+    environment:
+      ConnectionStrings__UserContext: "Server=db;Database=stokersdatatransferservice_db;User=sa;Password=R9QgoT#Pm8;"
+
 
   db:
     image: "mcr.microsoft.com/mssql/server"
