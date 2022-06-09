@@ -100,7 +100,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: Stokers/APIDocumentatie
+          repository: StokersWebsite/APIDocumentatie
           token: ${{ secrets.PERSONAL_KEY }}
       
       - name: Download docs artifact
