@@ -43,5 +43,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"StokersWebsite_StokersDataTransferService" /o:"stokerswebsite" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet test --no-build --verbosity normal "./StokersWebsiteDataAPI/"
+          dotnet test --verbosity normal "./StokersWebsiteDataAPI/"
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
