@@ -11,6 +11,13 @@ services:
       ASPNETCORE_ConnectionStrings__StokersConnection:"Server = stokersdatatransferservice_db_1; User = sa; Password = R9QgoT#Pm8; Database = Stokers"
     depends_on:
       - db
+  
+  StokersReactWebsite:
+    image: ${DOCKER_REGISTRY-}stokersreactwebsite
+    ports:
+      - 4040:4040
+    depends_on: 
+      - StokersWebsite
 
   db:
     image: "mcr.microsoft.com/mssql/server"
