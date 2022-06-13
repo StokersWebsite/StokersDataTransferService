@@ -7,6 +7,8 @@ services:
       dockerfile: ./WebsiteStokers/Dockerfile
     ports:
       - 5003:5003
+    environment:
+      ASPNETCORE_ConnectionStrings__StokersConnection:"Server = stokersdatatransferservice_db_1; User = sa; Password = R9QgoT#Pm8; Database = Stokers"
     depends_on:
       - db
 
