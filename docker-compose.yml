@@ -1,23 +1,22 @@
 version: "3.8"
 services:
   StokersWebsite:
-    image: ${DOCKER_REGISTRY-}stokersapi
+    image: stokersapi:latest
     build:
       context: ./StokersWebsiteDataAPI
       dockerfile: ./WebsiteStokers/Dockerfile
     ports:
       - 5003:5003
     environment:
-      ASPNETCORE_ConnectionStrings__StokersConnection:"Server = stokersdatatransferservice_db_1; User = sa; Password = R9QgoT#Pm8; Database = Stokers"
+      - ConnectionStrings__StokersConnection:"Server=stokersdatatransferservice_db_1;User=sa;Password=R9QgoT#Pm8;Database=Stokers"
     depends_on:
       - db
   
   StokersReactWebsite:
-    image: ${DOCKER_REGISTRY-}stokersreactwebsite
+    image: rensvlooswijk/stokersreactwebsite:latest
     ports:
       - 4040:4040
-    depends_on: 
-      - StokersWebsite
+    stdin_open: true
 
   db:
     image: "mcr.microsoft.com/mssql/server"
